@@ -10,6 +10,7 @@ updateObjectWithKeyAndValue(recipes, 'prop2', 2);
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   object.key = value;
+  return object
 }
 
 destructivelyUpdateObjectWithKeyAndValue(recipes, prop2, 2);
