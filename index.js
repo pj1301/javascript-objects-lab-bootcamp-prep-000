@@ -20,3 +20,7 @@ function deleteFromObjectByKey(object, key) {
 }
 
 deleteFromObjectByKey(recipes, 'prop')
+
+function destructivelyDeleteFromObjectByKey(object, key) {
+  object.key = undefined
+}
