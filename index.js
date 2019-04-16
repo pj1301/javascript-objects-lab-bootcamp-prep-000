@@ -20,3 +20,5 @@ function deleteFromObjectByKey(object, key) {
 }
 
 deleteFromObjectByKey(recipes, 'prop')
+
+
